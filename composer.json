@@ -1,0 +1,21 @@
+{
+   "name": "divotek_smart/language-module",
+   "type": "laravel-module",
+   "description": "Language module for Divotek SMART",
+   "authors": [
+      {
+         "name": "Divotek SMART",
+         "email": "dev@divotek.com"
+      }
+   ],
+   "autoload": {
+      "psr-4": {
+         "Modules\\Language\\": ""
+      }
+   },
+   "require": {
+      "php": "^8.2"
+   },
+   "version": "1.0.0",
+   "minimum-stability": "dev"
+}
