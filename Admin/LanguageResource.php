@@ -86,10 +86,11 @@ class LanguageResource extends Resource
             ])
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
-                    Tables\Actions\DeleteBulkAction::make(),
+                    // Tables\Actions\DeleteBulkAction::make(),
                 ]),
             ])
             ->headerActions([
+                Schema::helpAction('Language help'),
                 Tables\Actions\Action::make('Settings')
                     ->slideOver()
                     ->icon('heroicon-o-cog')
